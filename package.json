@@ -1,0 +1,18 @@
+{
+  "name": "irctc_workindia",
+  "version": "1.0.0",
+  "description": "## Installation 1. Clone the repository 2. Run `npm install` to install the dependencies 3. Set up `.env` file as per the `.env.example` 4. Set up MySQL database and run the SQL script for creating tables 5. Run `npm run dev` to start the server in development mode",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "K K Harjeeth",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.11.3"
+  }
+}
