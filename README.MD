@@ -11,6 +11,6 @@
 - `POST /api/users/register`: Register a new user
 - `POST /api/users/login`: Log in as a user
 - `POST /api/admin/addTrain`: Admin only - Add a new train (protected by API key)
-- `GET http://localhost:3000/api/trains?source={source}&destination={destination}`: Check train availability (requires authentication)
+- `GET /api/trains?source={source}&destination={destination}`: Check train availability (requires authentication)
 - `POST /api/trains/book`: Book a seat on a train (requires authentication) 
 - `GET /api/users/bookings`: Get the booking details of the logged In User 
